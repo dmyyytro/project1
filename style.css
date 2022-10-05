@@ -11,13 +11,12 @@ img {
   display: block;
 }
 
-
 .container {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   max-width: 1366px;
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 
 .header {
@@ -31,15 +30,9 @@ img {
   justify-content: flex-end;
 }
 
-
-
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
-
-
-
-
 
 .nav-list-item a{
   font-size: 18px;
@@ -48,11 +41,9 @@ img {
 
 .main {
   max-width: 1366px;
-  height: 300px;
+  height: 400px;
   background-color: #2f303a;
   margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto; */
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(./header.jpg);
@@ -66,30 +57,6 @@ img {
   font-family: "Cormorant SC", serif;
 }
 
-/* .main-btn {
-  min-width: 200px;
-  height: 50px;
-  border-radius: 15px;
-  background-color: rgba(235, 224, 204, 0.8);
-  color: antiquewhite;
-  border: 0px;
-  cursor: pointer;
-  padding: 10px 30px;
-  font-weight: 400;
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.06em;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: "Montserrat", sans-serif;
-} */
-
-
-
- 
 .team-list {
   display: flex;
   justify-content: center;
@@ -104,11 +71,16 @@ img {
   font-size: 44px;
 }
 
+.footer-adress-link:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+  .who {
+    font-size: 18px;
+  }
 
 
-
-
-
+/* ---MEDIA QUERIES--- */
 @media only screen and (max-width:900px) {
 
   .main .main-title{
